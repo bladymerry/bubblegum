@@ -1,0 +1,49 @@
+/* all pages */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    padding: 0 0 0 20px;
+}
+
+
+/* nav bar */
+
+ul {
+  font-family: 'Darumadrop One', cursive;
+  list-style-type: none;
+  margin: auto 15px;
+  padding: 0 40px 0;
+  overflow: hidden;
+  background-color: none;
+  text-align: center;
+}
+
+li {
+display: inline;
+}
+
+li a {
+  display: inline-block;
+  color: whitesmoke;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: all 400ms ease-in-out;
+  
+}
+
+li a:hover {
+  color: rgba(231, 38, 212, 0.951);
+}
+
+.bubble{
+  display: block;
+  max-width: 80%;
+  margin: 30px 0 0 0;
+  border: 0;
+  border-radius: 5px;
+ 
+  }
+
+  
